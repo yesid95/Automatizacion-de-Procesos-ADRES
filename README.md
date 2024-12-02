@@ -11,6 +11,8 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
 - **Validación de Datos**: Verifica la integridad y consistencia de los datos según las especificaciones técnicas establecidas por la ADRES.
 - **Procesamiento Automatizado**: Gestiona automáticamente los diferentes tipos de archivos de novedades:
   - **Movilidades y Traslados**: Procesa archivos `R1`, `S1`, `R2`, `S2`, `R4`, `S4`, incluyendo sus variantes automáticas y archivos de glosas.
+  - **Ingresos Nuevos**: Maneja archivos `MS` y `MC` para registros nuevos.
+  - **Novedades de Actualización**: Administra archivos `NS` y `NC` para cambios de nombre, evolución de documento, cambio de municipio, entre otros.
 - **Generación de Reportes**: Produce reportes detallados de los resultados del procesamiento, indicando aprobaciones, negaciones y glosas para corrección.
 
 ## Requisitos
@@ -20,6 +22,7 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
   - `pandas`: Para manipulación y análisis de datos.
   - `openpyxl`: Para manejo de archivos Excel.
   - `pyinstaller`: Para la creación del ejecutable portable.
+  - `openpyxl`: específicamente para .xlsx.
 - **Sistema Operativo**: Compatible con Windows, macOS y Linux.
 
 ## Instalación
@@ -53,8 +56,10 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
    ```bash
    python src/main.py
    ```
-2. **Seleccionar los archivos a procesar**: Utilice la interfaz para elegir los archivos en formato `.txt`, `.val` o `.neg`.
-3. **Iniciar el procesamiento**: La herramienta validará y procesará los archivos seleccionados, generando los reportes correspondientes en la carpeta `output`.
+2. **Seleccionar los archivos a procesar**: Utilice la interfaz para elegir los archivos en formato `.txt`, `.val`, `.neg` y `.xlsx`.
+3. **Iniciar   - **Ingresos Nuevos**: Maneja archivos `MS` y `MC` para registros civiles y permisos de protección personal.
+  - **Novedades de Actualización**: Administra archivos `NS` y `NC` para cambios de nombre, evolución de documento, cambio de municipio, entre otros.
+- **Generación de Reportes**: Produce reportes detallados de los resultados del procesamiento, indicando aprobaciones, negaciones y glosas para corrección.el procesamiento**: La herramienta validará y procesará los archivos seleccionados, generando los reportes correspondientes en la carpeta `output`.
 
 ## Contribuciones
 
@@ -80,4 +85,4 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Para más información, por favor contacte a [Osmar Yesid Rincón Zorro](mailto:tu-email@dominio.com).
+Para más información, por favor contacte a [Osmar Yesid Rincón Zorro](mailto:rincon3259@gmail.com).
