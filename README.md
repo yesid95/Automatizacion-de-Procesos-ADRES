@@ -3,7 +3,7 @@
 
 ## Descripción
 
-Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y portable en Python que automatice el procesamiento y gestión de los archivos de novedades requeridos por la Administradora de los Recursos del Sistema General de Seguridad Social en Salud (ADRES) en Colombia. La herramienta facilitará la selección y validación de archivos en formatos `.txt`, `.val` o `.neg`, estandarizados según la Resolución 762 de 2023, optimizando el flujo de trabajo y reduciendo errores manuales.
+Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y portable en Python que automatice el procesamiento y gestión de los archivos de novedades requeridos por la Administradora de los Recursos del Sistema General de Seguridad Social en Salud (ADRES) en Colombia. La herramienta facilitará la selección y validación de archivos en formatos `.txt`, `.val`, `.neg` y `.xlsx`, estandarizados según la Resolución 762 de 2023, optimizando el flujo de trabajo y reduciendo errores manuales.
 
 ## Funcionalidades
 
@@ -20,9 +20,8 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
 - **Python 3.8 o superior**: Lenguaje de programación principal.
 - **Librerías**:
   - `pandas`: Para manipulación y análisis de datos.
-  - `openpyxl`: Para manejo de archivos Excel.
+  - `openpyxl`: Para manejo de archivos Excel (`.xlsx`).
   - `pyinstaller`: Para la creación del ejecutable portable.
-  - `openpyxl`: específicamente para .xlsx.
 - **Sistema Operativo**: Compatible con Windows, macOS y Linux.
 
 ## Instalación
@@ -57,9 +56,7 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
    python src/main.py
    ```
 2. **Seleccionar los archivos a procesar**: Utilice la interfaz para elegir los archivos en formato `.txt`, `.val`, `.neg` y `.xlsx`.
-3. **Iniciar   - **Ingresos Nuevos**: Maneja archivos `MS` y `MC` para registros civiles y permisos de protección personal.
-  - **Novedades de Actualización**: Administra archivos `NS` y `NC` para cambios de nombre, evolución de documento, cambio de municipio, entre otros.
-- **Generación de Reportes**: Produce reportes detallados de los resultados del procesamiento, indicando aprobaciones, negaciones y glosas para corrección.el procesamiento**: La herramienta validará y procesará los archivos seleccionados, generando los reportes correspondientes en la carpeta `output`.
+3. **Iniciar el procesamiento**: La herramienta validará y procesará los archivos seleccionados, generando los reportes correspondientes en la carpeta `output`.
 
 ## Contribuciones
 
@@ -85,4 +82,4 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Para más información, por favor contacte a [Osmar Yesid Rincón Zorro](mailto:rincon3259@gmail.com).
+Para más información, puede visitar el repositorio o contactar a [Osmar Yesid Rincón Zorro](mailto:rincon3259@gmail.com).
