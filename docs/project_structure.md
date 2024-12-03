@@ -1,0 +1,18 @@
+├── Automatizacion-de-Procesos-ADRES
+    └── LICENSE
+    └── README.md
+    └── requirements.txt
+    ├── docs
+        └── design_guide.md
+        └── project_structure.md
+        └── requirements.md
+        └── user_manual.md
+        ├── diagrams
+    ├── src
+        └── main.py
+        ├── config
+        ├── export
+        ├── processing
+        ├── utils
+            └── generate_structure.py
+    ├── tests

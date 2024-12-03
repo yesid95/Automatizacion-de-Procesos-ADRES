@@ -58,6 +58,44 @@ Este proyecto tiene como objetivo desarrollar una herramienta ejecutable y porta
 2. **Seleccionar los archivos a procesar**: Utilice la interfaz para elegir los archivos en formato `.txt`, `.val`, `.neg` y `.xlsx`.
 3. **Iniciar el procesamiento**: La herramienta validará y procesará los archivos seleccionados, generando los reportes correspondientes en la carpeta `output`.
 
+## Generar la Estructura del Proyecto
+
+Para actualizar la documentación de la estructura del proyecto, usa el script `generate_structure.py`:
+```bash
+python src/utils/generate_structure.py
+```
+
+## Estructura del Proyecto
+
+La estructura del proyecto está organizada de la siguiente manera:
+```
+├── Automatizacion-de-Procesos-ADRES
+    └── LICENSE
+    └── README.md
+    └── requirements.txt
+    ├── docs
+        └── design_guide.md
+        └── project_structure.md
+        └── requirements.md
+        └── user_manual.md
+        ├── diagrams
+    ├── src
+        └── main.py
+        ├── config
+        ├── export
+        ├── processing
+        ├── utils
+            └── generate_structure.py
+    ├── tests
+```
+
+- `docs/`: Documentación técnica (manuales, guías, diagramas).
+- `src/`: Código fuente del proyecto.
+  - `config/`: Configuración y constantes globales.
+  - `processing/`: Procesamiento de datos.
+  - `utils/`: Funciones auxiliares y herramientas.
+- `tests/`: Pruebas unitarias e integraciones.
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, siga los siguientes pasos:
@@ -82,4 +120,6 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Para más información, puede visitar el repositorio o contactar a [Osmar Yesid Rincón Zorro](mailto:rincon3259@gmail.com).
+Para más información, puede visitar el repositorio o contactar a:
+- Osmar Yesid Rincón Zorro: [GitHub Profile](https://github.com/yesid95)
+- Correo: [rincon3259@gmail.com](mailto:rincon3259@gmail.com)
